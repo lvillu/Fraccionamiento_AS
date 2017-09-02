@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_inicio"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Inicio"
+            />
+        <item
+            android:id="@+id/menu_pagos"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Pagos"
+            />
+        <item
+            android:id="@+id/menu_banco"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Banco"
+            />
+        <item
+            android:id="@+id/menu_proyectos"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Proyectos"
+            />
+        <item
+            android:id="@+id/menu_propuestas"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Propuestas"
+            />
+        <item
+            android:id="@+id/menu_admin"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Administrador"
+            />
+        <item
+            android:id="@+id/menu_salir"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Salir"
+            />
+
+    </group>
+</menu>
