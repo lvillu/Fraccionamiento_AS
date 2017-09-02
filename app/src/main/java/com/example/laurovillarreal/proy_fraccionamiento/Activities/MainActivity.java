@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setToolBar();
         BindUI();
+        SetFragmentByDefault();
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -84,6 +85,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void SetFragmentByDefault(){
+        changeFragment(new InicioFragment(), navigationView.getMenu().getItem(0));
     }
 
     private void setToolBar(){
